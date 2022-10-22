@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <style type="text/css">
+
+    </style>
+    <link href="../index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<div  id="root"> <!-- группировка для CSS -->
+
+    <div id="tetris">
+        <h1>
+            <span style="color: rgb(255,255,255)">Tetris</span>
+        </h1>
+    </div>
+    <section>
+        <div class="rain" >
+        </div>
+    </section>
+    <div id="statistic">
+
+            <p>Name:  <span id="name">0</span></p>
+            <p>Score:  <span id="score">0</span></p>
+            <p>Lines:  <span id="lines">0</span></p>
+            <p>Level:  <span id="level">0</span></p>
+</div>
+</div>
+
+    <script  src="./tetris.js" ></script>
+    <script  src="./view.js" ></script>
+<script  src="./controller.js" ></script>
+    <script  src="./main.js" ></script>
+
+</body>
+</html>
